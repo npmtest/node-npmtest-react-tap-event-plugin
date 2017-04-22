@@ -1,7 +1,10 @@
-# test coverage for  [react-tap-event-plugin (v2.0.1)](http://facebook.github.io/react)  [![npm package](https://img.shields.io/npm/v/npmtest-react-tap-event-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-tap-event-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-tap-event-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-react-tap-event-plugin)
+# npmtest-react-tap-event-plugin
+
+#### basic test-coverage for  [react-tap-event-plugin (v2.0.1)](http://facebook.github.io/react)  [![npm package](https://img.shields.io/npm/v/npmtest-react-tap-event-plugin.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-react-tap-event-plugin) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-react-tap-event-plugin.svg)](https://travis-ci.org/npmtest/node-npmtest-react-tap-event-plugin)
+
 #### Facebook's TapEventPlugin, temporarily available on npm until its made public in their repo
 
-[![NPM](https://nodei.co/npm/react-tap-event-plugin.png?downloads=true)](https://www.npmjs.com/package/react-tap-event-plugin)
+[![NPM](https://nodei.co/npm/react-tap-event-plugin.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-tap-event-plugin)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-react-tap-event-plugin/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-react-tap-event-plugin/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-react-tap-event-plugin%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-react-tap-event-plugin/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-react-tap-event-plugin%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-tap-event-plugin/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/test-report.html](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-react-tap-event-plugin/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-react-tap-event-plugin/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-react-tap-event-plugin/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-react-tap-event-plugin/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-react-tap-event-plugin/build/screenCapture.npmPackageListing.svg)
 
@@ -61,8 +70,7 @@
     "main": "src/injectTapEventPlugin.js",
     "maintainers": [
         {
-            "name": "s0meone",
-            "email": "daniel@danielvanhoesel.nl"
+            "name": "s0meone"
         }
     ],
     "name": "react-tap-event-plugin",
@@ -71,7 +79,6 @@
         "react": "^15.4.0-0",
         "react-dom": "^15.4.0-0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/zilverline/react-tap-event-plugin.git"
@@ -79,7 +86,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "2.0.1"
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
 
